@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML5 Elements Page</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My HTML5 Demo Page</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>My Goals</h2>
+    <ol type="I">
+      <li>Learn HTML5</li>
+      <li>Understand CSS</li>
+      <li>Practice JavaScript</li>
+      <li>Build Web Projects</li>
+      <li>Launch My Portfolio</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Nature Inspiration</h2>
+    <img src="https://images.pexels.com/photos/158607/cairn-fog-mystical-background-158607.jpeg" 
+         alt="Beautiful nature view from Pexels" 
+         width="500">
+  </section>
+
+  <!-- Contact Table -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>123 Elm St</td>
+          <td>+254701234567</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary Smith</td>
+          <td>456 Oak Ave</td>
+          <td>+254712345678</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>Ahmed Khan</td>
+          <td>789 Pine Rd</td>
+          <td>+254723456789</td>
+          <td>ahmed@example.com</td>
+        </tr>
+        <tr>
+          <td>Grace Kim</td>
+          <td>321 Maple Ln</td>
+          <td>+254734567890</td>
+          <td>grace@example.com</td>
+        </tr>
+        <tr>
+          <td>David Otieno</td>
+          <td>654 Cedar Blvd</td>
+          <td>+254745678901</td>
+          <td>david@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Register Here</h2>
+    <form>
+      <!-- Name -->
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <!-- Password -->
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="Create a password" minlength="6" required><br><br>
+
+      <!-- Date of Birth -->
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Gender (Radio Buttons) -->
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br><br>
+
+      <!-- Skills (Checkboxes) -->
+      <label>Skills:</label><br>
+      <input type="checkbox" id="html" name="skills" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="checkbox" id="css" name="skills" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="checkbox" id="js" name="skills" value="JavaScript">
+      <label for="js">JavaScript</label><br><br>
+
+      <!-- Country (Dropdown) -->
+      <label for="country">Country:</label><br>
+      <select id="country" name="country" required>
+        <option value="">Select Country</option>
+        <option value="kenya">Kenya</option>
+        <option value="uganda">Uganda</option>
+        <option value="tanzania">Tanzania</option>
+      </select><br><br>
+
+      <!-- Submit -->
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Multimedia Section -->
+  <section>
+    <h2>Multimedia</h2>
+
+    <!-- Audio Player -->
+    <h3>Sample Audio</h3>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Player -->
+    <h3>Sample Video</h3>
+    <video width="500" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My HTML5 Practice. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
